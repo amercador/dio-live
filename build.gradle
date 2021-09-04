@@ -21,14 +21,9 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	//tratará questões de autoconfiguração, reload de aplicação etc
 
-
 	//compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.9.7'
-
 	implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: '2.12.3'
-
 	//jackson é responsavel por fazer o parce do json para o java ou java para json
-
-
 
 	runtimeOnly 'mysql:mysql-connector-java'
 	//caso for trocar o banco h2 pelo mysql
