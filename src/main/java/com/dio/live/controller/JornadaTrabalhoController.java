@@ -46,7 +46,6 @@ public class JornadaTrabalhoController {
             System.out.println(e.getMessage());
         }
         return (ResponseEntity<JornadaTrabalho>) ResponseEntity.ok();
-
     }
 
 
